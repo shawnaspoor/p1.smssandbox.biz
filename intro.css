@@ -1,0 +1,135 @@
+body {
+width:900px;
+background: #FFFFFF;
+margin-left:auto;
+margin-right:auto;
+margin-top: 0;
+}
+
+hr {
+clear: both;
+
+}
+
+h1 {
+font-size: 1.75em; 
+font-family: Georgia, Arial, "Times New Roman";
+}
+
+h2 {
+font-size: 1.5em; 
+font-family: Georgia, Arial, "Times New Roman";
+}
+
+h3 {
+font-size: 1.3em; 
+font-family: Georgia, Arial, "Times New Roman";
+}
+
+h4 {
+font-size: 1em; 
+font-family: Georgia, Arial, "Times New Roman";
+}
+
+h5 { 
+font-size: 0.95em; 
+font-family: Georgia, Arial, "Times New Roman";
+}
+p {
+font-size: 0.85em; 
+font-family: Georgia, Arial, "Times New Roman";
+color:#000000;
+}
+a
+
+a:visited {
+color: #bbbbbb;
+}
+
+
+/*ids begin*/
+
+#header {
+height:50px;
+background-color: #FFFFFF;
+padding: 5px;
+
+}
+#header a{
+font-size: 1.75em; 
+font-family: Georgia, Arial, "Times New Roman";
+height:80px;
+background-color: #FFFFFF;
+text-decoration:none;
+color: #000000;
+padding-top:10px;
+
+}
+#mainbody {
+width:100%;
+float: right;
+padding-bottom:20px;
+padding-left: 5px;
+padding-top: 10px;
+}
+
+
+#footer{
+clear: both;
+font-size: .75em;
+font-family: Georgia, Arial, "Times New Roman";
+background: #D1D1D1;
+padding-top:25px;
+margin:0px;
+}
+
+
+
+/*ids end*/
+
+/*classes begin*/
+
+hr.top {
+clear:both;
+height:10px;
+background: #44B5F2;
+margin: 0px;
+padding: 5px;
+}
+
+
+
+.meme_listing {
+color: #000000;
+font-size: 1.2em; 
+font-family: Arial, "Times New Roman";
+margin: 0;
+padding-bottom: 10px;
+padding-top: 10px;
+display: inline;
+
+}
+
+
+.meme_item {
+color: #000000;
+font-size: 1em; 
+font-family: Georgia, Arial, "Times New Roman";
+display: inline;
+margin: 2px;
+padding: 5px;
+height: 300px;
+width: 185px;
+}
+
+
+
+.bottom {
+font-size: .9em;
+font-family: Georgia, Arial, "Times New Roman";
+}
+
+
+
+/*classes end*/
+

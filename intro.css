@@ -1,9 +1,10 @@
 body {
-width:900px;
+width:100%;
 background: #FFFFFF;
 margin-left:auto;
 margin-right:auto;
 margin-top: 0;
+min-width: 380px;
 }
 
 hr {
@@ -24,6 +25,7 @@ font-family: Georgia, Arial, "Times New Roman";
 h3 {
 font-size: 1.3em; 
 font-family: Georgia, Arial, "Times New Roman";
+
 }
 
 h4 {
@@ -34,43 +36,55 @@ font-family: Georgia, Arial, "Times New Roman";
 h5 { 
 font-size: 0.95em; 
 font-family: Georgia, Arial, "Times New Roman";
+padding-top:1px;
+padding-bottom:10px;
+margin:0;
 }
+
 p {
 font-size: 0.85em; 
 font-family: Georgia, Arial, "Times New Roman";
 color:#000000;
 }
-a
+
+a {
+	color:#85B7D6;
+	text-decoration: none;
+}
 
 a:visited {
 color: #bbbbbb;
 }
 
+a:hover {
+	color:#68CCAE;
+}
 
 /*ids begin*/
+#wrapper {
+	padding:5%;
+	vertical-align: top;
+
+}
 
 #header {
+font-size: 1em; 
+font-family: Georgia, Arial, "Times New Roman";	
 height:50px;
 background-color: #FFFFFF;
 padding: 5px;
 
 }
-#header a{
-font-size: 1.75em; 
-font-family: Georgia, Arial, "Times New Roman";
-height:80px;
-background-color: #FFFFFF;
-text-decoration:none;
-color: #000000;
-padding-top:10px;
 
-}
 #mainbody {
-width:100%;
-float: right;
+width:80%;
+float: left;
 padding-bottom:20px;
 padding-left: 5px;
-padding-top: 10px;
+padding-top: 5px;
+padding-right: 5px;
+margin: 5px;
+display: inline;
 }
 
 
@@ -78,9 +92,10 @@ padding-top: 10px;
 clear: both;
 font-size: .75em;
 font-family: Georgia, Arial, "Times New Roman";
+text-align: center;
 background: #D1D1D1;
-padding-top:25px;
-margin:0px;
+padding:5px;
+margin:0;
 }
 
 
@@ -99,29 +114,21 @@ padding: 5px;
 
 
 
-.meme_listing {
+.codeeditor {
 color: #000000;
-font-size: 1.2em; 
-font-family: Arial, "Times New Roman";
-margin: 0;
-padding-bottom: 10px;
-padding-top: 10px;
-display: inline;
-
-}
-
-
-.meme_item {
-color: #000000;
-font-size: 1em; 
+font-size: .7em; 
 font-family: Georgia, Arial, "Times New Roman";
-display: inline;
-margin: 2px;
-padding: 5px;
+text-align: left;
+margin: 0;
+padding:15px;
+background-color: #68CCAE;
+display: inline-block;
+min-width: 50px;
+width: 10%;
 height: 300px;
-width: 185px;
-}
+float: left;
 
+}
 
 
 .bottom {
